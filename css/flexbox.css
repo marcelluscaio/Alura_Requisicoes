@@ -6,10 +6,6 @@
 }
 
 
-
-
-
-
 /* SEÇÃO VÍDEOS */
 
 .videos__container {
@@ -17,11 +13,13 @@
     flex-wrap: wrap;
     gap: 10px;
     z-index: 1;
+
     padding: 153px 20px 10px 20px;
 }
 
 .videos__item {
     flex-grow: 1;
+
     height: 303px;
     width: 300px;
 }
@@ -29,12 +27,14 @@
 /* grid vídeos */
 
 .descricao-video {
-    margin-top: 1rem;
     display: grid;
-    text-align: start;
+    grid-template-columns: auto 1fr;
     column-gap: 1rem;
     row-gap: 10px;
-    grid-template-columns: auto 1fr;
+
+    margin-top: 1rem;
+    
+    text-align: start;
 }
 
 .descricao-video img {
